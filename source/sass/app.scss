@@ -15,15 +15,15 @@
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+
 
 html,body {
     width: 100%;
     min-height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: $font-size;
     line-height: $line-height;
 }
@@ -154,3 +154,4 @@ main {
 @include set-cols(12, $grid-spacing);
 @include set-cols(36, $grid-spacing);
 @include global_classes();
+

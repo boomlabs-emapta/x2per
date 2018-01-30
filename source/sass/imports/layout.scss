@@ -171,17 +171,3 @@ section {
 	}
 }
 
-.next,.previous{
-		position:absolute;
-		width: $card-slider-btn;
-		top:40%;
-		height: 100%;
-}
-
-.next{
-	right:-35px;
-}
-
-.previous{
-	left:-30px;
-}
